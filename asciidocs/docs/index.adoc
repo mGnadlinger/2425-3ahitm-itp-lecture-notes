@@ -1,4 +1,4 @@
-= 24/25 - 3hitm - itp - Lecture Notes
+= 24/25 - 3ahitm - itp - Lecture Notes
 Thomas Stütz
 1.0.0, {docdate}: Lecture Notes for Courses at HTL Leonding
 :icons: font
