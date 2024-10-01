@@ -13,5 +13,58 @@ icon:github-square[link=https://github.com/2324-4bhif-wmc/2324-4bhif-wmc-lecture
 icon:home[link=http://edufs.edu.htl-leonding.ac.at/~t.stuetz/hugo/2021/01/lecture-notes/]
 endif::backend-html5[]
 
-== 2024-09-xx
+== 2024-10-01
 
+* Mehic: IoT/HA - Alarmierung für ältere PErsonen
+* Zangenfeind: Koordination für Müllsammeln
+
+
+* Projektarten
+
+* Stakeholder
+
+
+* Projektantrag
+
+
+=== Test Driven development
+
+==== Continous Testing
+
+* Stack
+
+[source,java]
+----
+package at.htl;
+
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.*;
+
+class MyStackTest {
+
+    @Test
+    void givenNewStack_ThenTheStackIsEmpty() {
+
+        var myStack = new MyStack();
+        //assertThat(myStack.isEmpty()).isTrue();
+        assertTrue(myStack.isEmpty()); // <.>
+
+    }
+
+    @Test
+    void givenNewStack_whenPushingOneElement_thenStackIsNotEmpty() {
+        var myStack = new MyStack(); // <.> // String-Stack
+        myStack.push("hallo");
+        assertFalse(myStack.isEmpty());
+    }
+
+    @Test
+    void givenNewStack_whenPushingOneElementAndPoppingOneElement_thenStackIsEmpty() {
+        var myStack = new MyStack(); // <.>
+    }
+}
+----
+
+*
