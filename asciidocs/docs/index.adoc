@@ -31,6 +31,19 @@ endif::backend-html5[]
 
 ==== Continous Testing
 
+* Grundprinzipien
+
+** Der Source-Code wird nur geändert, wenn ein Test fehlschlägt
+** Zuerst werden die Tests geschrieben, dann die Methoden implementiert.
+** Unit-Tests so einfach wie möglich.
+** Die Umsetzung in den Methoden ist so einfach wie möglich zu gestalten. MNur der Test soll grün werden. Auch wenn man weiß, dass man später noch refactoren muss.
+
+* Continous Testing
+
+** Nach Speichern des Codes, werden automatisch Tests durchgeführt
+
+
+
 * Stack
 
 [source,java]
@@ -67,4 +80,53 @@ class MyStackTest {
 }
 ----
 
+=== Coverage
+
+image::coverage.png[]
+
+
+
+
+
+
+== 2024-10-08
+
+=== Erstellen von Websites und Slides mit Asciidoctor
+
+
+. Mit Template ein Repo erstellen
+
+* https://github.com/htl-leonding-college/asciidoctor-html-template
+
+. Repo clonen
+
+. Änderungen committen und pushen
+
+. In gh-repo-settings den gh-pages branch auswählen
+
+image::gh-pages-settings.png[]
+
+==== Beispiele
+
+* https://github.com/htl-leonding-college/leocloud-intro-slides[leocloud slides^]
+
 *
+
+==== Ressourcen
+
+* https://unsplash.com/de
+* https://www.pexels.com/de-de/
+* https://pixabay.com/
+* https://undraw.co/
+
+
+=== Scrum
+
+image::minimum-viable-product.png[]
+
+* Rapid Value Creation
+
+* Sprint Commitment ist unveränderbar
+
+image::scrum-team.png[]
+
